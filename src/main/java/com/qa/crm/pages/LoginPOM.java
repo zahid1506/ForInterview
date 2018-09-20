@@ -4,9 +4,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 
 import com.qa.crm.base.Base;
+
+
+
 
 public class LoginPOM extends Base {
     //Declaration or creating repository
@@ -28,10 +30,10 @@ public class LoginPOM extends Base {
 		
 	}
 	//utilization
-	public void displaylogo(){
+	public boolean displaylogo(){
 		boolean flag=logo.isDisplayed();
-		Assert.assertTrue(flag);
-		System.out.println("my logo is displayed");
+		
+		return flag;
 	}
 	public void loginTOHome(){
 		un.sendKeys(prop.getProperty("username"));

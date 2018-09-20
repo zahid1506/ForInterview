@@ -10,3 +10,7 @@
 2018-07-18 12:43:33,541 INFO  [Base] before loading url 
 2018-07-18 12:43:54,396 INFO  [Base] after oading url 
 2018-07-18 12:43:55,732 INFO  [Base] log in into the app 
+2018-09-20 13:37:41,299 INFO  [Base] before opening chrome 
+2018-09-20 13:37:41,300 INFO  [Base] chrome is initialised 
+2018-09-20 13:37:45,399 INFO  [Base] chrome is intialised 
+2018-09-20 13:37:45,399 INFO  [Base] before loading url 

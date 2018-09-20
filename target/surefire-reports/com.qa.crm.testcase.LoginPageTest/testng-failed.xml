@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.qa.crm.testcase.LoginPageTest]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.qa.crm.testcase.LoginPageTest">
+        <methods>
+          <include name="verifylogo"/>
+          <include name="init"/>
+          <include name="close"/>
+          <include name="LoginToHome"/>
+        </methods>
+      </class> <!-- com.qa.crm.testcase.LoginPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.qa.crm.testcase.LoginPageTest] -->
